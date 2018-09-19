@@ -84,5 +84,4 @@ def winner(board)
       false
     end
   end
-  end
 end
