@@ -69,7 +69,7 @@ end
 
 def winner(board)
   if won?(board)
-    board.each do |win|
+    won?(board).each do |win|
     win_index_1 = win[0]
     win_index_2 = win[1]
     win_index_3 = win[2]
